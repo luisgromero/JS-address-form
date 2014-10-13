@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Address Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your form submition experience.</p>
+        <![endif]--> 
+        <div class="form_container">
+        	<fieldset id="" class="">
+          		<legend>Address Form</legend>
+	        	
+	        	<form class="address_form" method="post" id="address_form" name="address_form">
+				  	<label>House number:</label><span class="required_notification">* Required Field</span><input type="text" name="house_number" value="" id="some_name" placeholder="450"  required/>
+				  	<label>Street:</label><span class="required_notification">* Required Field</span><input type="text" name="street" value="" id="some_nam" placeholder="Geary"  required/>
+					<label>City:</label><span class="required_notification">* Required Field</span><input type="text" name="city" value="" id="some_na" placeholder="San Francisco"  required/>
+					<label>State:</label><span class="required_notification">* Required Field</span><input type="text" name="state" value="" id="some_n" placeholder="CA"  required/>
+					<label>Zipcode:</label><span class="required_notification">* Required Field</span><input type="text" name="zipcode" value="" id="some_" placeholder="90105" required/>
+					<label>Unit #:</label><span class="required_notification"></span><input type="text" name="unit" value="" id="some" placeholder="5"/>
+					<p><input id="submit_btn" type="submit" value="Submit"/></p>
+				</form>
+			</fieldset>
+		</div>
+		
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>');</script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
