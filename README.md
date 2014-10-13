@@ -4,7 +4,7 @@ This is a HTML address input form that checks the validity of the fields with ja
 ## Form fields
 The form asks and checks for the following while typing:
 
-*  House number
+  *  House number
   *  Street
   *  City
   *  State
