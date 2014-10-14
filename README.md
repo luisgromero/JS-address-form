@@ -11,7 +11,7 @@ The form asks and checks for the following while typing:
   *  Zipcode
   *  Unit Number
 	
-##Screenshot
+##Screenshots
 ![alt tag](http://www.luisgromero.com/site/wp-content/uploads/2014/06/jsform.gif)
 
 
